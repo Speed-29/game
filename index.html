@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css" type="text/css"/>
+        <title>Угадай число</title>
+    </head>
+
+    <body>
+        <h1>Игра в угадывание чисел</h1>
+
+        <p>Мы загадали случайное число от 1 до 100. Попробуйте угадать это число, но на это дается всего 10 попыток. Мы будем давать подсказку, была ли ваша догадка больше или меньше нашего числа.</p>
+
+        <div class="form">
+            <label for="guessField">Введите число: </label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Проверить число" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+
+        <script src="index.js"></script>
+  </body>
+</html>
